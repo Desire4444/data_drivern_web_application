@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #1e3a5f;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    border: .5px, solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form:not([action="delete.php"]) {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+input:not([type="radio"]):not([type="hidden"]),
+select {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+form[action="delete.php"] {
+    display: inline;
+}
+
+form[action="delete.php"] button {
+    background: #e47070;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #ffc5d9;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f5fa;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
