@@ -1,3 +1,7 @@
+**AI Usage Declaration**
+
+I used AI tools occasionally to clarify certain programming concepts and assist with understanding errors during development. However, the implementation, testing and final adjustments were carried out by me. I take responsibility for the submitted work.
+
 # QUESTION 5
 ## Server-side validation
 Server-side validation is the process of checking information submitted by a user on the server before processing or saving it.
