@@ -1,6 +1,6 @@
 **AI Usage Declaration**
 
-I used AI tools occasionally to clarify certain programming concepts and assist with understanding errors during development. However, the implementation, testing and final adjustments were carried out by me. I take responsibility for the submitted work.
+I used AI tools occasionally to clarify certain programming concepts and assist with understanding errors during development. However, the implementation, testing and final adjustments were carried out by me. I take responsibility for the submitted work. The model that was used was Gemini.
 
 # QUESTION 5
 ## Server-side validation
